@@ -46,6 +46,7 @@ class YouTubeDebugger extends React.Component {
                     className='bitrate'
                     onClick={this.handleBitrateClick}>
                         Change Bitrate
+                        <br></br>
                         {this.state.settings.bitrate}
                 </button>
 
@@ -53,6 +54,7 @@ class YouTubeDebugger extends React.Component {
                     className='resolution'
                     onClick={this.handleResolutionClick}>
                         Change Resolution
+                        <br></br>
                         {this.state.settings.video.resolution}
                 </button>
             </div>
